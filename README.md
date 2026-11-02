@@ -29,16 +29,16 @@ Proyek ini mentransformasi catatan fisik tak terstruktur (300+ entri transaksi f
 
 ### 1. `Dashboard` (Executive Summary & Visual Analysis)
 - **Interactive Pivot Tables & Pivot Charts:** Menyajikan ringkasan visual terkait Total Pendapatan (*Revenue*), Total Pesanan (*Orders*), Kuantitas Produk Terjual (*Pcs*), serta Rata-rata Pembelian.
-- **Dynamic Slicers & Timeline:** Tombol filter interaktif berdasarkan varian kemasan dan rentang waktu (Pagi/Sore/Bulan) untuk memadatkan laporan secara instan.
+- **Dynamic Slicers & Timeline:** Tombol filter interaktif berdasarkan varian kemasan dan rentang waktu (Tanggal/Bulan/Tahun) untuk memadatkan laporan secara instan.
 - **Key Metrics Highlighted:**
   - Total Pendapatan Per Bulan.
   - Pendapatan Per Varian Kemasan (Kemasan 2, 4, 12, 24).
   - Tren Transaksi Harian dan Sesi Operasional.
 
 ### 2. `Data_Pesanan` (Raw Data Transactional)
-- **Automated Order ID:** Penomoran ID pesanan otomatis (`TRX-0001`, `TRX-0002`, dst.) yang bangkit secara otomatis saat kolom pesanan diisi.
+- **Automated Order ID:** Penomoran ID pesanan otomatis (`TRX-0001`, `TRX-0002`, dst.) yang terisi secara otomatis saat kolom pesanan diisi.
 - **Dynamic Day Name Extraction:** Menguraikan tanggal menjadi nama hari secara otomatis menggunakan fungsi `=TEXT(Tanggal, "dddd")`.
-- **Automated Customer ID & Classification:** Standardisasi otomatis kualifikasi pelanggan (Pelanggan Rutin vs *Walk-in*). Jika terdaftar di master data, ID otomatis ditarik (`P001`, `P002`); jika pelanggan baru/umum, otomatis terkualifikasi sebagai `P000`.
+- **Automated Customer ID & Classification:** Standardisasi otomatis kualifikasi pelanggan (Pelanggan Rutin vs *Walk-in*). Jika terdaftar di master data, ID otomatis ditarik (`P001`, `P002`, ...); jika pelanggan baru/umum, otomatis terkualifikasi sebagai `P000`.
   ```excel
   =IF(ISNA(XLOOKUP(E2; Master_Pelanggan!$A$2:$A$10; Master_Pelanggan!$B$2:$B$10)); "P000"; XLOOKUP(E2; Master_Pelanggan!$A$2:$A$10; Master_Pelanggan!$B$2:$B$10))
   ```
@@ -46,7 +46,7 @@ Proyek ini mentransformasi catatan fisik tak terstruktur (300+ entri transaksi f
 - **Data Validation & Flexible Dropdown:** Memastikan konsistensi penulisan nama varian dan waktu operasional tanpa membatasi fleksibilitas input nama pelanggan baru.
 
 ### 3. `File_Master` (Reference Tables)
-- Menyimpan data referensi master varian kemasan beserta harga satuan, serta daftar *repeat customer* terdaftar.
+- Menyimpan data referensi master varian kemasan beserta harga satuan, serta daftar reseller terdaftar.
 
 ---
 
@@ -54,7 +54,7 @@ Proyek ini mentransformasi catatan fisik tak terstruktur (300+ entri transaksi f
 
 1. **Efisiensi Rekapitulasi Operasional:** Otomatisasi kalkulasi memangkas waktu operasional rekap harian secara signifikan dari hitungan jam ke hitungan menit.
 2. **Pola Konsentrasi Operasional:** Teridentifikasi konsentrasi puncak pemesanan pada sesi waktu dan hari-hari tertentu yang berguna untuk optimalisasi persediaan stok bahan baku peyek.
-3. **Segmentasi Produk & Pelanggan:** Varian kemasan tertentu (kategori 12 & 24) menjadi kontributor pendapatan terbesar, sekaligus memetakan profil *repeat customers* untuk efisiensi strategi promosi berulang.
+3. **Segmentasi Produk & Pelanggan:** Varian kemasan tertentu (kategori 12 & 24) menjadi kontributor pendapatan terbesar, sekaligus memetakan profil reseller untuk efisiensi strategi promosi berulang.
 
 ---
 
@@ -68,15 +68,6 @@ Proyek ini mentransformasi catatan fisik tak terstruktur (300+ entri transaksi f
 
 ## 🧰 Tools & Technologies Used
 - **Software:** Microsoft Excel
-- **Features & Methods:** Advanced Formulas (`XLOOKUP`, `IF`, `ISNA`, `TEXT`, `ROW`), Data Validation Dropdowns, Pivot Table, Pivot Chart, Dynamic Slicers, Conditional Formatting, Database Normalization.
+- **Features & Methods:** Advanced Formulas (`XLOOKUP`, `IF`, `ISNA`, `TEXT`), Data Validation Dropdowns, Pivot Table, Pivot Chart, Dynamic Slicers, Conditional Formatting, Database Normalization.
 
 ---
-
-## 📂 File Structure
-```text
-├── 📄 README.md                                   <- Dokumentasi Proyek GitHub
-└── 📊 Sales_Automation_Peyek_Goyang.xlsx         <- File Master Excel (Database + Dashboard)
-```
-
----
-*Dikembangkan oleh Dianita sebagai Portofolio Data Analyst.*
