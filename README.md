@@ -18,7 +18,7 @@ Proses manual ini menghadapi beberapa kendala utama:
 | Sebelum (Buku Catatan Manual) | Sesudah (Automated Excel Database & Dashboard) |
 | :---: | :---: |
 | Pencatatan fisik di buku rekap kertas, rentan rusak, tidak terstruktur, dan berisiko salah hitung. | Sistem database relasional terstruktur di Excel, otomatisasi formula, serta interactive dashboard visual. |
-| <img width="720" height="1280" alt="WhatsApp Image 2026-10-31 at 18 15 37" src="https://github.com/user-attachments/assets/411dfdb0-4d10-40ec-acfb-245786a0d90f" />| <img width="1689" height="640" alt="Screenshot 2026-11-02 152209" src="https://github.com/user-attachments/assets/27df82f3-093a-4ad5-adde-3028504b8f8c" /> <img width="1778" height="786" alt="Screenshot 2026-11-02 155146" src="https://github.com/user-attachments/assets/417c2d73-716d-46a4-b560-f66edc0d7903" />|
+| <img width="720" height="1280" alt="WhatsApp Image 2026-10-31 at 18 15 37" src="https://github.com/user-attachments/assets/411dfdb0-4d10-40ec-acfb-245786a0d90f" />| <img width="1689" height="640" alt="Screenshot 2026-11-02 152209" src="https://github.com/user-attachments/assets/27df82f3-093a-4ad5-adde-3028504b8f8c" /> <img width="1789" height="790" alt="Screenshot 2026-11-02 151822" src="https://github.com/user-attachments/assets/2064fde8-095d-48e5-b6ed-ced4434d7e01" />|
 
 
 ---
