@@ -1,15 +1,15 @@
-# 📊 Sales & Order Automation Dashboard for Traditional Business (UMKM Peyek Goyang)
+# 📊 Sales & Order Automation Dashboard for UMKM Peyek Goyang
 
 ![Project Status](https://img.shields.io/badge/Project%20Status-Completed-brightgreen)
 ![Tools](https://img.shields.io/badge/Tools-Microsoft%20Excel%20%7C%20Advanced%20Formulas%20%7C%20Pivot%20Table-blue)
 
 ## 📌 Business Overview & Problem Statement
-**UMKM Peyek Goyang** merupakan usaha mikro di bidang manufaktur dan distribusi makanan ringan. Sebelum proyek ini dijalankan, seluruh alur rekapitulasi dan pencatatan transaksi harian masih dilakukan secara manual menggunakan **buku catatan berbasis kertas**. 
+**UMKM Peyek Goyang** merupakan usaha mikro di kuliner makanan ringan. Sebelum proyek ini dijalankan, seluruh alur rekapitulasi dan pencatatan transaksi harian masih dilakukan secara manual menggunakan **buku catatan berbasis kertas**. 
 
 Proses manual ini menghadapi beberapa kendala utama:
 - **Tinggi Risiko *Human Error*:** Penjumlahan nominal harga dan kuantitas pesanan yang dihitung secara manual rentan salah hitung.
 - **Inefisiensi Waktu:** Membutuhkan waktu hingga 2–3 jam per hari hanya untuk mengkalkulasi total omzet dan merapikan buku rekap harian.
-- **Kesulitan Menarik *Insight*:** Pemilik usaha sulit memantau total pendapatan harian/bulanan, tren waktu penjualan, varian produk terlaris, serta profil pelanggan secara *real-time*.
+- **Kesulitan Menarik *Insight*:** Pemilik usaha sulit memantau total pendapatan harian/bulanan, tren waktu penjualan, varian produk terlaris secara *real-time*.
 
 ---
 
@@ -18,6 +18,8 @@ Proses manual ini menghadapi beberapa kendala utama:
 | Sebelum (Buku Catatan Manual) | Sesudah (Automated Excel Database & Dashboard) |
 | :---: | :---: |
 | Pencatatan fisik di buku rekap kertas, rentan rusak, tidak terstruktur, dan berisiko salah hitung. | Sistem database relasional terstruktur di Excel, otomatisasi formula, serta interactive dashboard visual. |
+| <img width="720" height="1280" alt="WhatsApp Image 2026-10-31 at 18 15 37" src="https://github.com/user-attachments/assets/411dfdb0-4d10-40ec-acfb-245786a0d90f" />
+ | :---: |
 
 *(Tambahkan gambar preview screenshot perbandingan sebelum vs sesudah di bagian ini)*
 
