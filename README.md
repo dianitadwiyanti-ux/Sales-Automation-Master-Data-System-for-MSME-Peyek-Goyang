@@ -18,7 +18,7 @@ This manual process posed several critical bottlenecks:
 | Before (Manual Records) | After (Structured Excel System) |
 | :---: | :---: |
 | Manual, unstructured records, high risk of duplication & price errors. | Structured relational database system in Excel, with Product Master & Customer Master as Single Source of Truth, automated formulas, and interactive dashboard. |
-|<img width="1280" height="720" alt="before" src="https://github.com/user-attachments/assets/b82cab3f-cbe8-4371-9d6c-e32914a9cf8f" />| |
+|<img width="1280" height="720" alt="before" src="https://github.com/user-attachments/assets/b82cab3f-cbe8-4371-9d6c-e32914a9cf8f" />| https://github.com/user-attachments/assets/36f3f3bb-3a63-4247-ad18-437f43940213|
 
 ---
 
