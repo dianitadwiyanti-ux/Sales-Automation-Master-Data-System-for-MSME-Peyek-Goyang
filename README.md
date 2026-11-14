@@ -18,7 +18,8 @@ This manual process posed several critical bottlenecks:
 | Before (Manual Records) | After (Structured Excel System) |
 | :---: | :---: |
 | Manual, unstructured records, high risk of duplication & price errors. | Structured relational database system in Excel, with Product Master & Customer Master as Single Source of Truth, automated formulas, and interactive dashboard. |
-| <img width="720" height="1280" alt="WhatsApp Image 2026-10-31 at 18 15 37" src="https://github.com/user-attachments/assets/411dfdb0-4d10-40ec-acfb-245786a0d90f" />| <img width="1689" height="640" alt="Screenshot 2026-11-02 152209" src="https://github.com/user-attachments/assets/27df82f3-093a-4ad5-adde-3028504b8f8c" /> <img width="1789" height="790" alt="Screenshot 2026-11-02 151822" src="https://github.com/user-attachments/assets/2064fde8-095d-48e5-b6ed-ced4434d7e01" />|
+| <img width="720" height="1280" alt="<img width="1280" height="720" alt="before" src="https://github.com/user-attachments/assets/357d5e8f-4b5a-4922-8e76-ff40dba1b0c7" />
+" src="https://github.com/user-attachments/assets/411dfdb0-4d10-40ec-acfb-245786a0d90f" />| <img width="1689" height="640" alt="Screenshot 2026-11-02 152209" src="https://github.com/user-attachments/assets/27df82f3-093a-4ad5-adde-3028504b8f8c" /> <img width="1789" height="790" alt="Screenshot 2026-11-02 151822" src="https://github.com/user-attachments/assets/2064fde8-095d-48e5-b6ed-ced4434d7e01" />|
 
 ---
 
