@@ -1,9 +1,9 @@
-# 📊 Sales Automation & Master Data System for MSME Peyek Goyang
+# Sales Automation & Master Data System for MSME Peyek Goyang
 
 ![Project Status](https://img.shields.io/badge/Project%20Status-Completed-brightgreen)
 ![Tools](https://img.shields.io/badge/Tools-Microsoft%20Excel%20%7C%20Advanced%20Formulas%20%7C%20Pivot%20Table-blue)
 
-## 📌 Business Overview & Problem Statement
+## Business Overview & Problem Statement
 **UMKM Peyek Goyang** is a micro-enterprise operating in the snack culinary sector. Prior to this project, all daily transaction recording was done manually and was not structured.
 
 This manual process posed several critical bottlenecks:
@@ -13,7 +13,7 @@ This manual process posed several critical bottlenecks:
 
 ---
 
-## 📸 Transformation: Before vs After
+## Transformation: Before vs After
 
 | Before (Manual Records) | After (Structured Excel System) |
 | :---: | :---: |
@@ -22,7 +22,7 @@ This manual process posed several critical bottlenecks:
 
 ---
 
-## 🛠️ Project Architecture & Key Features
+## Project Architecture & Key Features
 
 This project transforms manual records into a structured database schema in Microsoft Excel consisting of 3 primary worksheets:
 
@@ -46,15 +46,15 @@ This project transforms manual records into a structured database schema in Micr
 ---
 
 
-## 🎯 Business Outcome & Impact
+## Business Outcome & Impact
 
-- ⏱️ **Centralized & Structured Data:** Transformed manual records into one structured file with Product Master & Customer Master as Single Source of Truth.
-- 🎯 **Prevented Input Errors:** Data Validation & Data Quality Check prevent product name duplication & price errors by rejecting inputs outside the master.
-- 📊 **Faster Operational Monitoring:** Menyajikan data penjualan secara *real-time* yang memudahkan pemilik usaha dalam menentukan tingkat produksi dan inventaris stok.
+- **Centralized & Structured Data:** Transformed manual records into one structured file with Product Master & Customer Master as Single Source of Truth.
+- **Prevented Input Errors:** Data Validation & Data Quality Check prevent product name duplication & price errors by rejecting inputs outside the master.
+- **Faster Operational Monitoring:** Menyajikan data penjualan secara *real-time* yang memudahkan pemilik usaha dalam menentukan tingkat produksi dan inventaris stok.
 Interactive Dashboard (Pivot + Slicer + Timeline) allows the owner to monitor sales without manual recapitulation.
 ---
 
-## 🧰 Tools & Technologies Used
+## Tools & Technologies Used
 - **Software:** Microsoft Excel
 - **Features & Methods:** Advanced Formulas (`XLOOKUP`, `IF`, `ISNA`, `TEXT`), Data Validation Dropdowns, Pivot Table, Pivot Chart, Dynamic Slicers, Conditional Formatting, Database Normalization.
 
