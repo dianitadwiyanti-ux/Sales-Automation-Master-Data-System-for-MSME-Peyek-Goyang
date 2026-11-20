@@ -50,8 +50,8 @@ This project transforms manual records into a structured database schema in Micr
 
 - **Centralized & Structured Data:** Transformed manual records into one structured file with Product Master & Customer Master as Single Source of Truth.
 - **Prevented Input Errors:** Data Validation & Data Quality Check prevent product name duplication & price errors by rejecting inputs outside the master.
-- **Faster Operational Monitoring:** Menyajikan data penjualan secara *real-time* yang memudahkan pemilik usaha dalam menentukan tingkat produksi dan inventaris stok.
-Interactive Dashboard (Pivot + Slicer + Timeline) allows the owner to monitor sales without manual recapitulation.
+- **Faster Operational Monitoring:** Delivers up-to-date sales visibility to support production planning and stock/inventory tracking.
+**Interactive Reporting:** Interactive Dashboard (Pivot + Slicer + Timeline) allows the owner to monitor sales without manual recapitulation.
 ---
 
 ## Tools & Technologies Used
